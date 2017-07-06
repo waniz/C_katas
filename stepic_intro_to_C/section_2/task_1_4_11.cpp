@@ -8,7 +8,7 @@ int main() {
 
     cin >> n >> m >> k;
 
-    if () {
+    if (n * m > k && (k % n == 0 || k % m == 0)) {
         cout << "YES";
     }
     else {
